@@ -1,0 +1,31 @@
+/* --- logo ---*/
+#site-logo {
+    padding: 22px 22px 10px;
+    background: #f17661;
+    display: inline-block;
+}
+
+/* --- navbar icons ---*/
+#navIcons {
+    color: #fff;
+}
+
+/* --- dropdown hover ---*/ 
+.navbar-nav li:hover .dropdown-menu {
+    display: block;
+}
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+    text-decoration: underline;
+    transform: rotate(-90deg);
+} 
+/*      ---         */
+
+.navbar-dark {
+    background-color: #1a1a1a;
+}
+
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
