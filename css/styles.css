@@ -45,9 +45,14 @@
         left: auto;
         right: auto;
         width: 50%;
-        height: 70%;
+        top: 25%;
         right:0;
         z-index: 0;
+    }
+
+    #sushi {
+        left: 20vh;
+        top: 30vh;
     }
   }
 
@@ -59,14 +64,13 @@
 
 .carousel .carousel-item img {
     position: absolute;
-    top: 0;
-    left: 0;
-    min-height: 300px; }
+    
+    }
 
     #sushi {
         z-index: 1;
         top: 20vh;
-        left: 5vh;
+   
     }
     
 .carousel-caption > h1 {
@@ -118,10 +122,42 @@
 /* --- jumbotron --- */
 .jumbotron {
     background-color: #f5f5f5;
+    padding-top: 5vh;
+    padding-bottom: 0;
+    background: url("../img/background.png");
 }
 
 .jumbotron  h1 {
     font-family: 'Brush Script MT';
     align-self: center;
 }
-    
+
+.jumbotron img {
+    top: 0;
+    right: 0;
+    width: 200px;
+}
+   
+.jumbotron p {
+    font-size: 2vh;
+}
+/* --- */
+
+#welcome span {
+    font-family: 'Brush Script MT';
+    font-size: xx-large;
+    color : #f17661;
+}
+
+#welcome h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    color: #202022;
+    font-size: x-large;
+}
+
+#welcome p {
+    font-family: 'Open Sans';
+    font-size: small;
+    color: #989898;
+}
