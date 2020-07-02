@@ -141,8 +141,8 @@
 .jumbotron p {
     font-size: 2vh;
 }
-/* --- */
 
+/* --- album --- */
 #welcome span {
     font-family: 'Brush Script MT';
     font-size: xx-large;
@@ -160,4 +160,47 @@
     font-family: 'Open Sans';
     font-size: small;
     color: #989898;
+}
+
+/* --- chefs --- */
+#chefsSection {
+    background-color: #f7f7f7;
+    padding-top: 50px;
+    padding-bottom: 40px; 
+}
+
+#chefsSection h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    color: #202022;
+    font-size: x-large;
+    margin-bottom: 10px;;
+}
+
+#chefsSection span {
+    font-family: 'Brush Script MT';
+    font-size: xx-large;
+    color : #f17661;
+}
+
+#chefs img {
+    width: 120px;
+    height: auto;
+}
+
+#chefs > .col-lg {
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.06), 0 0 0 1px rgba(0,0,0,0.1) inset;
+    margin: 20px;
+    padding: 20px;
+}
+
+#chefs p {
+    color: #989898;
+    font-size: small;
+    font-style: oblique;
+}
+.ratings > .fa-star {
+    color: #FFDF00;
 }
