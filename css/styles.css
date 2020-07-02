@@ -204,3 +204,10 @@
 .ratings > .fa-star {
     color: #FFDF00;
 }
+
+/* --- foooter --- */
+.footer {
+    background-color: black;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
