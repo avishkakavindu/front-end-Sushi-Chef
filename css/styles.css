@@ -209,21 +209,26 @@
 
 /* --- foooter --- */
 .footer {
-    background-color: black;
+    background: url("../img/sand.png") #1a1a1a repeat scroll top center;
     margin: 0px auto;
     padding: 20px 0px;
 }
 
-.map-container-2{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-    }
-    .map-container-2 iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-    }
+.footer h5 {
+    color: #fff;
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+
+.footer p, li, address, a {
+    color: #a1a1a1;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: small;
+}
+
+.footer i {
+    color: #fff;
+}
+    
