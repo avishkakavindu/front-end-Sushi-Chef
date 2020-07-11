@@ -30,6 +30,24 @@
     padding-bottom: 0px;
 }
 
+.navbar .btn:hover {
+    color: #f17661;
+}
+
+.navbar .btn-outline-success {
+    background-color:  #fff;
+    border-color: #f17661;
+    color: #f17661;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar .btn-outline-success:hover {
+    background-color:  #f17661;
+    border-color: #f17661;
+    color: #fff;
+}
+
 /* --- carousel --- */
 .carousel {
     background-color: #000000;
@@ -232,3 +250,10 @@
     color: #fff;
 }
     
+#footer-contact {
+    margin-left: 25px;
+}
+.footer hr {
+    border-top: 1px solid #383838;;
+    margin: 1px;
+}
