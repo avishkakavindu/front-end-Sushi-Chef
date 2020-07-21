@@ -83,12 +83,94 @@
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
-            <button class="btn my-2 my-sm-0" data-toggle="modal" data-target="signinModal">SignIn</button>
-            <button class="btn btn-outline-success my-2 my-sm-0" data-toggle="modal" data-target="signupModal">SignUp</button>
+            <button class="btn btn-outline-success my-2 my-sm-0" data-toggle="modal" data-target="#modalLRForm">SignIn</button>
           </form>
         </div>
       </div>
     </nav>
+
+    <!--Modal: Login / Register Form-->
+    <div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog cascading-modal" role="document">
+        <!--Content-->
+        <div class="modal-content">
+          <!--Modal cascading tabs-->
+          <div class="modal-c-tabs">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs md-tabs tabs-2 darken-3" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#panel7" role="tab"><i class="fa fa-user mr-1"></i>
+                  Login
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#panel8" role="tab"><i class="fa fa-user-plus mr-1"></i>
+                  Register
+                </a>
+              </li>
+            </ul>
+            <!-- Tab panels -->
+            <div class="tab-content">
+              <!--Panel 7-->
+              <div class="tab-pane fade in show active" id="panel7" role="tabpanel">
+
+                <!--Body-->
+                <div class="modal-body mb-1">
+                  <div class="md-form form-sm mb-2">
+                    <i class="fa fa-envelope prefix"></i>
+                    <label data-error="wrong" data-success="right" for="modalLRInput10">Your email</label>
+                    <input type="email" id="modalLRInput10" class="form-control form-control-sm validate">
+                  </div>
+
+                  <div class="md-form form-sm mb-2">
+                    <i class="fa fa-lock prefix"></i>
+                    <label data-error="wrong" data-success="right" for="modalLRInput11">Your password</label>
+                    <input type="password" id="modalLRInput11" class="form-control form-control-sm validate">                    
+                  </div>
+                  <div class="text-right mt-2">
+                    <p>Forgot <a href="#" class="blue-text text-left">Password?</a></p>
+                    <button class="btn btn-outline-primary">Log in <i class="fa fa-sign-in ml-1"></i></button>
+                    <button type="button" class="btn btn-outline-warning waves-effect ml-auto" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+                
+              </div>
+              <!--/.Panel Login-->
+              <!--Panel Register-->
+              <div class="tab-pane fade" id="panel8" role="tabpanel">
+                <!--Body-->
+                <div class="modal-body">
+                  <div class="md-form form-sm mb-2">
+                    <i class="fa fa-envelope prefix"></i>
+                    <label data-error="wrong" data-success="right" for="modalLRInput12">Your email</label>
+                    <input type="email" id="modalLRInput12" class="form-control form-control-sm validate">
+                  </div>
+                  <div class="md-form form-sm mb-2">
+                    <i class="fa fa-lock prefix"></i>
+                    <label data-error="wrong" data-success="right" for="modalLRInput13">Your password</label>
+                    <input type="password" id="modalLRInput13" class="form-control form-control-sm validate">
+                  </div>
+                  <div class="md-form form-sm mb-2">
+                    <i class="fa fa-lock prefix"></i>
+                    <label data-error="wrong" data-success="right" for="modalLRInput14">Repeat password</label>
+                    <input type="password" id="modalLRInput14" class="form-control form-control-sm validate">
+                  </div>
+                  <div class="text-right form-sm mt-2">
+                    <button class="btn btn-outline-success">Sign up <i class="fa fa-sign-in ml-1"></i></button>
+                    <button type="button" class="btn btn-outline-warning waves-effect ml-auto" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+                
+              </div>
+              <!--/.Panel Register-->
+            </div>
+          </div>
+        </div>
+        <!--/.Content-->
+      </div>
+    </div>
+  <!--Modal: Login / Register Form-->
+
 
 <!-- carousel  -->
     <div class="slider-area">

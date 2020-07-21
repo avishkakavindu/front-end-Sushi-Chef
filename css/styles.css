@@ -30,10 +30,6 @@
     padding-bottom: 0px;
 }
 
-.navbar .btn:hover {
-    color: #f17661;
-}
-
 .navbar .btn-outline-success {
     background-color:  #fff;
     border-color: #f17661;
@@ -46,6 +42,12 @@
     background-color:  #f17661;
     border-color: #f17661;
     color: #fff;
+}
+
+
+
+.model label {
+    position: absolute;
 }
 
 /* --- carousel --- */
