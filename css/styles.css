@@ -276,3 +276,36 @@
     color: #f17661;
     font-size: 7vh;
 }
+
+@media screen and (min-width: 1024px){
+    #promo {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+
+#containerinfo {
+    height: 100%;
+}
+
+#promo .btn-primary {
+    background-color: #f17661;
+    border-color: #f17661;
+    padding: 5px;
+}
+
+#promo .col-lg {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#promo .btn-primary:hover {
+    border-color: #f17661;
+    color: #f17661;
+    background-color: rgba(255, 255, 255, 0.637);
+}
+
+#promo .card {
+    border: none;
+}
