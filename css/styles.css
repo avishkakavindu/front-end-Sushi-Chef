@@ -301,6 +301,10 @@
     padding: 5px;
 }
 
+.active a{
+    color: #f17661;
+}
+
 #promo .col-lg {
     margin-left: 20px;
     margin-top: 20px;
