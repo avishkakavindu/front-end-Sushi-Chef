@@ -291,8 +291,7 @@
 
 #promo .col-lg:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-left: 19.95px;
-    margin-top: 19.95px;
+    
 }
 
 #promo .btn-primary {
@@ -301,13 +300,9 @@
     padding: 5px;
 }
 
-.active a{
-    color: #f17661;
-}
 
 #promo .col-lg {
-    margin-left: 20px;
-    margin-top: 20px;
+    margin: 15px;
 }
 
 #promo .btn-primary:hover {
