@@ -69,10 +69,10 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="promo.html">PROMOTIONS</a>
+              <a class="nav-link" href="promo.html">PROMOTIONS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">CART</a>
+              <a class="nav-link active" href="#">CART</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -175,14 +175,14 @@
     </div>
   <!--Modal: Login / Register Form-->
 
-  <!-- Jumatron -->
+    <!-- Jumatron -->
     <section>
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
           <div class="row">
             <div class="col-12 col-sm-8">
-              <h1 class="display-5 text-center">Sushi Chef <span class="promo">Promotions</span></h1>
-              <blockquote class="blockquote text-center">
+              <h1 class="display-5">Sushi Chef <span class="promo">CART</span></h1>
+              <blockquote class="blockquote">
                 <p class="mb-0 lead">Sushi is not really about flavor as much as texture. Everything is usually made bite-size so you can eat it in one bite, which is more proper.Prepared fresh with care by our chefs, our products offer great flavour and superior freshness. Our popular Poke Bowls, Sushi Tacos, Blossom and Temari Collections are just among a wide selection of unique creations available for take-out or delivery.</p>
                 <footer class="blockquote-footer">Sushi <cite title="Source Title">Lover</cite></footer>
               </blockquote>
@@ -195,12 +195,42 @@
       </div>
     </section>
   <!-- END - Jumbatron -->
-  
+
   <!-- cart -->
-  <div class="container">
-        
+  <div class="container d-flex flex-column min-vh-100" id="cart">
+    <!-- item 1 -->
+    <div class="card mb-3 mt-3">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="img/img3.jpg" class="card-img img-thumbnail m-3" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Sushi name</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="price-tag">
+              <div class="row">
+                <div class="col-sm-6">
+                  $50.00
+                </div>
+                <div class="col-sm input-group">
+                  <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary" type="button"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    <input type="text" class="form-control" placeholder="">
+                    <button class="btn btn-outline-secondary" type="button"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                  </div>                  
+                </div>
+              </div>
+              <div class="row float-right">
+                Total: $50.00
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <!-- END - promotions -->
+  <!-- END - cart -->
 
   
   <!-- footer -->

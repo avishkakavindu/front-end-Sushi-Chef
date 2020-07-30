@@ -307,10 +307,21 @@
 
 #promo .btn-primary:hover {
     border-color: #f17661;
-    color: #f17661;
+    color: hsl(9, 84%, 66%);
     background-color: rgba(255, 255, 255, 0.637);
 }
 
 #promo .card {
     border: none;
+}
+
+
+/* ----------------------------------------------------------------- */
+/*
+ *  -- cart.html --
+ *
+*/
+
+#cart {
+    
 }
