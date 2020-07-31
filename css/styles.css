@@ -328,6 +328,12 @@
     }
 }
 
+#cart {
+    background-color: #fef7f6;
+    padding-top: 20px;
+    margin-top: 0px;
+}
+
 #cart i.fa.fa-times {
     float: right;
     color: #700303
@@ -335,4 +341,9 @@
 
 #cart i.fa.fa-times:hover {
     color: #ff0000;
+}
+
+.cart-title {
+    background-color: #f8bab0;
+    margin-top: 0px;
 }

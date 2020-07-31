@@ -177,7 +177,7 @@
 
     <!-- Jumatron -->
     <section>
-      <div class="jumbotron jumbotron-fluid">
+      <div class="jumbotron jumbotron-fluid mb-0">
         <div class="container">
           <div class="row">
             <div class="col-12 col-sm-8">
@@ -199,8 +199,10 @@
   <!-- cart -->
   <div class="container" id="cart">
     <!-- Title -->
-    <div class="col col-sm">
-      Shopping Bag
+    <div class="col col-sm cart-title">
+      <h4>
+        Your Cart <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+      </h4>
     </div>
     <!-- Product #1 -->
     <div class="row">
@@ -217,11 +219,11 @@
         <p>Bball High</p>
         <p>White</p>
       </div>
-      <div class="col-sm-2 my-auto">
+      <div class="col-sm-2 input-group my-auto">
         <button class="btn btn-light border" type="button" name="minus">
           <i class="fa fa-minus" aria-hidden="true"></i>
         </button>
-        <input type="text" name="name" value="1" style="width:20px;">
+        <input type="text" class="border" maxlength="2" name="name" value="1" style="width: 30px">
         <button class="btn btn-light border" type="button" name="plus">
           <i class="fa fa-plus" aria-hidden="true"></i>
         </button>
