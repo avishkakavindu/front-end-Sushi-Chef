@@ -322,6 +322,8 @@
  *
 */
 
-#cart {
-    
+@media screen and (min-width: 1024px){
+    #cart .img-fluid {
+        width: 60%
+    }
 }
