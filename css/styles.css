@@ -327,3 +327,12 @@
         width: 60%
     }
 }
+
+#cart i.fa.fa-times {
+    float: right;
+    color: #700303
+}
+
+#cart i.fa.fa-times:hover {
+    color: #ff0000;
+}
