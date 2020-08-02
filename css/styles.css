@@ -329,9 +329,33 @@
 }
 
 #cart {
-    background-color: #fef7f6;
+    background-color: #fff;
     padding-top: 20px;
-    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+}
+
+#cart h4 {
+    padding-top: 20px;
+    padding-bottom: 20px;;
+}
+
+#cart .row {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right:0px; 
+    background-color: #fefdfd;
+}
+
+#cart .row:hover {
+    border-color: #f17661;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cart .row div {
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 #cart i.fa.fa-times {
@@ -344,6 +368,6 @@
 }
 
 .cart-title {
-    background-color: #f8bab0;
+    background-color:#f17661;
     margin-top: 0px;
 }
