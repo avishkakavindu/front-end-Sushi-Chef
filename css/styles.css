@@ -324,7 +324,7 @@
 
 @media screen and (min-width: 1024px){
     #cart .img-fluid {
-        width: 60%
+        width: 100px
     }
 }
 
@@ -341,16 +341,9 @@
 }
 
 #cart .row {
-    margin-top: 5px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right:0px; 
-    background-color: #fefdfd;
-}
-
-#cart .row:hover {
-    border-color: #f17661;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 5px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 #cart .row div {
@@ -358,12 +351,12 @@
     margin-bottom: 0px;
 }
 
-#cart i.fa.fa-times {
+#cart i.fa.fa-trash {
     float: right;
     color: #700303
 }
 
-#cart i.fa.fa-times:hover {
+#cart i.fa.fa-trash:hover {
     color: #ff0000;
 }
 

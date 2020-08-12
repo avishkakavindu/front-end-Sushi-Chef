@@ -204,20 +204,38 @@
         Your Cart <i class="fa fa-shopping-cart" aria-hidden="true"></i>
       </h4>
     </div>
+    <!-- cart titles -->
+    <div class="row border-bottom">
+      <div class="col-sm-1 d-md-flex justify-content-center align-items-center remove-btn d-none d-md-block">
+        
+      </div>
+      <div class="col-sm-3 d-none d-sm-block">
+        <h6>Product</h6>
+      </div>
+      <div class="col-sm-3 d-none d-sm-block">
+        <h6> Description</h6>
+      </div>
+      <div class="col-sm-2 d-none d-sm-block">
+        <h6>Quantity</h6>
+      </div>
+      <div class="col-sm text-center d-none d-sm-block">
+        <h6>Price</h6>
+      </div>
+    </div>
     <!-- Product #1 -->
-    <div class="row border">
-      <div class="col-sm-1 my-auto d-md-flex justify-content-center align-items-center">
+    <div class="row border-bottom" style="background-color: #F8F8F8">
+      <div class="col-sm-1 d-md-flex justify-content-center align-items-center remove-btn">
         <button type="button" class="btn bg-transparent">
-          <i class="fa fa-times" aria-hidden="true"></i>
+          <i class="fa fa-trash" aria-hidden="true"></i>
         </button>
       </div>
       <div class="col-sm-3">
-        <img class="img-fluid" src="img/img3.jpg" alt="" />
+        <img class="img-fluid img-thumbnail" src="img/img3.jpg" alt="" />
       </div>
       <div class="col-sm-3">
-        <h5>Dish Name</h5>
-        <p>Bball High</p>
-        <p>White</p>
+        <h5> Dish Name</h5>
+        <p>Bball High
+        White</p>
       </div>
       <div class="col-sm-2 input-group my-auto">
         <button class="btn btn-light border" type="button" name="minus">
@@ -228,24 +246,23 @@
           <i class="fa fa-plus" aria-hidden="true"></i>
         </button>
       </div>
-      <div class="col-sm my-auto">
+      <div class="col-sm my-auto text-center">
         <span>$549.00</span>
       </div>
     </div>
     <!-- Product #2 -->
-    <div class="row border" style="background-color: #fceae7;">
+    <div class="row border-bottom">
       <div class="col-sm-1 my-auto d-md-flex justify-content-center align-items-center">
         <button type="button" class="btn bg-transparent">
-          <i class="fa fa-times" aria-hidden="true"></i>
+          <i class="fa fa-trash" aria-hidden="true"></i>
         </button>
       </div>
       <div class="col-sm-3">
-        <img class="img-fluid" src="img/img2.jpg" alt="" />
+        <img class="img-fluid img-thumbnail" src="img/img2.jpg" alt="" />
       </div>
       <div class="col-sm-3">
         <h5>Dish Name</h5>
-        <p>Bball High</p>
-        <p>White</p>
+        <p>Bball High White</p>
       </div>
       <div class="col-sm-2 input-group my-auto">
         <button class="btn btn-light border" type="button" name="minus">
@@ -256,24 +273,24 @@
           <i class="fa fa-plus" aria-hidden="true"></i>
         </button>
       </div>
-      <div class="col-sm my-auto">
+      <div class="col-sm my-auto text-center">
         <span>$549.00</span>
       </div>
     </div>
     <!-- Product #3 -->
-    <div class="row border">
+    <div class="row border-bottom" style="background-color: #F8F8F8">
       <div class="col-sm-1 my-auto d-md-flex justify-content-center align-items-center">
         <button type="button" class="btn bg-transparent">
-          <i class="fa fa-times" aria-hidden="true"></i>
+          <i class="fa fa-trash" aria-hidden="true"></i>
         </button>
       </div>
       <div class="col-sm-3">
-        <img class="img-fluid" src="img/img1.jpg" alt="" />
+        <img class="img-fluid img-thumbnail" src="img/img1.jpg" alt="" />
       </div>
       <div class="col-sm-3">
         <h5>Dish Name</h5>
-        <p>Bball High</p>
-        <p>White</p>
+        <p>Bball High
+        White</p>
       </div>
       <div class="col-sm-2 input-group my-auto">
         <button class="btn btn-light border" type="button" name="minus">
@@ -284,7 +301,7 @@
           <i class="fa fa-plus" aria-hidden="true"></i>
         </button>
       </div>
-      <div class="col-sm my-auto">
+      <div class="col-sm my-auto text-center">
         <span>$549.00</span>
       </div>
     </div>
@@ -292,7 +309,87 @@
   </div>
   <!-- END - cart -->
 
-  
+  <div class="container mb-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col"> </th>
+                            <th scope="col">Product</th>
+                            <th scope="col">Available</th>
+                            <th scope="col" class="text-center">Quantity</th>
+                            <th scope="col" class="text-right">Price</th>
+                            <th> </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="https://dummyimage.com/50x50/55595c/fff" /> </td>
+                            <td>Product Name Dada</td>
+                            <td>In stock</td>
+                            <td><input class="form-control" type="text" value="1" /></td>
+                            <td class="text-right">124,90 €</td>
+                            <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://dummyimage.com/50x50/55595c/fff" /> </td>
+                            <td>Product Name Toto</td>
+                            <td>In stock</td>
+                            <td><input class="form-control" type="text" value="1" /></td>
+                            <td class="text-right">33,90 €</td>
+                            <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://dummyimage.com/50x50/55595c/fff" /> </td>
+                            <td>Product Name Titi</td>
+                            <td>In stock</td>
+                            <td><input class="form-control" type="text" value="1" /></td>
+                            <td class="text-right">70,00 €</td>
+                            <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Sub-Total</td>
+                            <td class="text-right">255,90 €</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Shipping</td>
+                            <td class="text-right">6,90 €</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><strong>Total</strong></td>
+                            <td class="text-right"><strong>346,90 €</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col mb-2">
+            <div class="row">
+                <div class="col-sm-12  col-md-6">
+                    <button class="btn btn-block btn-light">Continue Shopping</button>
+                </div>
+                <div class="col-sm-12 col-md-6 text-right">
+                    <button class="btn btn-lg btn-block btn-success text-uppercase">Checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ 
   <!-- footer -->
     <footer class="footer">
       <div class="container">
@@ -344,7 +441,11 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+    <!-- custom scripts -->
+    <script src="./scripts/scripts.js"></script>
   </body>
 </html>
