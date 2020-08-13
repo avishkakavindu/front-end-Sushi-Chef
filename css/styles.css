@@ -364,3 +364,22 @@
     background-color:#f17661;
     margin-top: 0px;
 }
+
+@media screen and (min-width: 767px) {
+    .cart-summary-text-align {
+        text-align: right;
+    }
+}
+
+#cart .btn-outline-primary {
+    border-color: #f17661;
+    color: #f17661;
+}
+
+
+#cart .btn-outline-primary:hover {
+    border-color: #f17661;
+    background-color: #f17661;
+    color: #fff;
+    
+}
