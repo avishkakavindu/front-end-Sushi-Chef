@@ -181,7 +181,7 @@
         <div class="container">
           <div class="row">
             <div class="col-12 col-sm-8">
-              <h1 class="display-5">Sushi Chef <span class="promo">CART</span></h1>
+              <h1 class="display-5">Sushi Chef <span class="promo">Checkout</span></h1>
               <blockquote class="blockquote">
                 <p class="mb-0 lead">Sushi is not really about flavor as much as texture. Everything is usually made bite-size so you can eat it in one bite, which is more proper.Prepared fresh with care by our chefs, our products offer great flavour and superior freshness. Our popular Poke Bowls, Sushi Tacos, Blossom and Temari Collections are just among a wide selection of unique creations available for take-out or delivery.</p>
                 <footer class="blockquote-footer">Sushi <cite title="Source Title">Lover</cite></footer>
@@ -199,59 +199,71 @@
   <!-- Checkout form -->
   <div class="container" id="checkout">
     <div class="row mt-3">
+        <!-- cart summary -->
         <div class="col-sm">
-            <div class="">
-                <h4> Your Cart <span class="badge badge-warning">3</span></h4>
-                <ul class="list-group mb-3 z-depth-1">
-                    <li class="list-group-item d-flex justify-content-between lh-condensed">
-                      <div>
-                        <h6 class="my-0">Product name</h6>
-                        <small class="text-muted">Brief description</small>
-                      </div>
-                      <span class="text-muted">$12</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between lh-condensed">
-                      <div>
-                        <h6 class="my-0">Second product</h6>
-                        <small class="text-muted">Brief description</small>
-                      </div>
-                      <span class="text-muted">$8</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between lh-condensed">
-                      <div>
-                        <h6 class="my-0">Third item</h6>
-                        <small class="text-muted">Brief description</small>
-                      </div>
-                      <span class="text-muted">$5</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between">
-                      <span>Total (USD)</span>
-                      <strong>$20</strong>
-                    </li>
-                  </ul>
-            </div>
+            <h4> Your Cart <span class="badge badge-warning">3</span></h4>
+            <ul class="list-group mb-3 z-depth-1">
+                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                      <h6 class="my-0">Product name</h6>
+                      <small class="text-muted">Brief description</small>
+                    </div>
+                    <span class="text-muted">$12</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                      <h6 class="my-0">Second product</h6>
+                      <small class="text-muted">Brief description</small>
+                    </div>
+                    <span class="text-muted">$8</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                      <h6 class="my-0">Third item</h6>
+                      <small class="text-muted">Brief description</small>
+                    </div>
+                    <span class="text-muted">$5</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                    <h5 class="font-weight-bold">Total (USD)</h5>
+                    <strong>$20</strong>
+                </li>
+            </ul>
+            <form class="card p-2">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Promo code" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                  <div class="input-group-append">
+                    <button class="btn btn-secondary" type="button">Redeem</button>
+                  </div>
+                </div>
+              </form>
         </div>
-        <div class="col-sm-8 border">
-            <h4>Delivery Details</h4>
+        <!-- checkout form -->
+        <div class="col-sm-8 border rounded mt-2 mt-sm-0" id="checkoutForm">
+            <h4 class="font-weight-bold">Delivery Details</h4>
             <form>
                 <div class="form-group row">
                     <div class="col-sm-6">
+                        <label for="address">Address</label>
                         <input type="text" class="form-control" id="address" name="address"
                             placeholder="address">
                     </div> 
                         <div class="col-sm-6">
+                            <label for="city">City</label>
                             <input type="text" class="form-control" id="city" name="city"
                                 placeholder="city">
                         </div>                     
                     </div>
                     <div class="form-group row">
                         <div class="col-sm-6">
+                            <label for="state">State</label>
                             <input type="text" class="form-control" id="state" name="state"
                                 placeholder="state">
                         </div> 
                         <div class="col-sm-3">
+                            <label for="zip">Zip Code</label>
                             <input type="text" class="form-control" id="zip" name="zip"
-                                placeholder="Zip code">
+                                placeholder="zip code">
                         </div>                                     
                     </div>
                     <hr>
@@ -275,11 +287,11 @@
                     <div class="form-group row">
                         <div class="form-group col-sm-6">
                             <label for="cardname">Name on the card</label>
-                            <input type="text" class="form-control" id="cardname" placeholder="Name on the card">
+                            <input type="text" class="form-control" id="cardname" placeholder="name on the card">
                         </div>
                         <div class="form-group col-sm-6">
                             <label for="cardno">Card No</label>
-                            <input type="text" class="form-control" id="cardno" placeholder="Card No">
+                            <input type="text" class="form-control" id="cardno" placeholder="card No">
                         </div>                                    
                     </div>
                     <div class="form-group row">

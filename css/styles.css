@@ -56,7 +56,9 @@
     position: absolute;
 }
 
-/* --- carousel --- */
+/*
+ * --- carousel ---
+ */
 .carousel {
     background-color: #000000;
 }
@@ -266,10 +268,9 @@
     margin: 1px;
 }
 
-/* ----------------------------------------------------------------- */
+
 /*
  *  -- promo.html --
- *
 */
 
 .promo {
@@ -316,10 +317,8 @@
 }
 
 
-/* ----------------------------------------------------------------- */
-/*
+/* 
  *  -- cart.html --
- *
 */
 
 @media screen and (min-width: 1024px){
@@ -382,4 +381,49 @@
     background-color: #f17661;
     color: #fff;
     
+}
+
+/* 
+ *  -- checkout.html --
+*/
+
+#checkout {
+    padding: 20px;
+}
+
+#checkout h4 {
+    color: #6c757d;
+    font-weight: 300;
+}
+
+#checkout h6, h5 {
+    color: #000000;
+    font-weight: lighter;
+}
+
+#checkoutForm {
+    padding: 20px;
+}
+
+#checkoutForm label {
+    color: #757575;
+}
+
+button.btn.btn-secondary {
+    background-color: #f17661;
+    border-color: #f17661;
+}
+
+button.btn.btn-secondary:hover {
+    background-color: #fff;
+    border-color: #f17661;
+    color: #f17661;
+}
+
+#checkoutForm h4 {
+    margin-bottom: 20px;
+}
+
+#checkoutForm  .col-sm-6 {
+    margin-bottom: 5px;
 }
