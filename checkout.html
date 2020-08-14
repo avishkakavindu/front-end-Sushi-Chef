@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/animate.css">
 
-    <link rel="icon" type="image/png" href="img/cart.ico" />
-    <title>Cart </title>
+    <link rel="icon" type="image/png" href="img/checkout.ico" />
+    <title>Checkout </title>
   </head>
   <body>
   
@@ -72,7 +72,7 @@
               <a class="nav-link" href="promo.html">PROMOTIONS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">CART</a>
+              <a class="nav-link active" href="cart.html">CART</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -196,159 +196,111 @@
     </section>
   <!-- END - Jumbatron -->
 
-  <!-- cart -->
-  <div class="container" id="cart">
-    <!-- Title -->
-    <div class="col col-sm cart-title rounded-top">
-      <h4>
-        Your Cart <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-      </h4>
-    </div>
-    <!-- cart titles -->
-    <div class="row border-bottom">
-      <div class="col-sm-1 d-md-flex justify-content-center align-items-center remove-btn d-none d-md-block">
-        
-      </div>
-      <div class="col-sm-3 d-none d-sm-block">
-        <h6>Product</h6>
-      </div>
-      <div class="col-sm-3 d-none d-sm-block">
-        <h6> Description</h6>
-      </div>
-      <div class="col-sm-2 d-none d-sm-block">
-        <h6>Quantity</h6>
-      </div>
-      <div class="col-sm text-center d-none d-sm-block">
-        <h6>Price</h6>
-      </div>
-    </div>
-    <!-- Product #1 -->
-    <div class="row border-bottom" style="background-color: #F8F8F8">
-      <div class="col-sm-1 d-md-flex justify-content-center align-items-center remove-btn">
-        <button type="button" class="btn bg-transparent">
-          <i class="fa fa-trash" aria-hidden="true"></i>
-        </button>
-      </div>
-      <div class="col-sm-3">
-        <img class="img-fluid img-thumbnail" src="img/img3.jpg" alt="" />
-      </div>
-      <div class="col-sm-3">
-        <h5> Dish Name</h5>
-        <p>Bball High
-        White</p>
-      </div>
-      <div class="col col-sm-2 input-group my-auto">
-        <button class="btn btn-light border" type="button" name="minus">
-          <i class="fa fa-minus" aria-hidden="true"></i>
-        </button>
-        <input type="text" class="border" maxlength="2" name="name" value="1" style="width: 30px">
-        <button class="btn btn-light border" type="button" name="plus">
-          <i class="fa fa-plus" aria-hidden="true"></i>
-        </button>
-      </div>
-      <div class="col col-sm  text-center">
-        <span>$549.00</span>
-      </div>
-    </div>
-    <!-- Product #2 -->
-    <div class="row border-bottom">
-      <div class="col-sm-1 my-auto d-md-flex justify-content-center align-items-center">
-        <button type="button" class="btn bg-transparent">
-          <i class="fa fa-trash" aria-hidden="true"></i>
-        </button>
-      </div>
-      <div class="col-sm-3">
-        <img class="img-fluid img-thumbnail" src="img/img2.jpg" alt="" />
-      </div>
-      <div class="col-sm-3">
-        <h5>Dish Name</h5>
-        <p>Bball High White</p>
-      </div>
-      <div class="col col-sm-2 input-group my-auto">
-        <button class="btn btn-light border" type="button" name="minus">
-          <i class="fa fa-minus" aria-hidden="true"></i>
-        </button>
-        <input type="text" class="border" maxlength="2" name="name" value="1" style="width: 30px">
-        <button class="btn btn-light border" type="button" name="plus">
-          <i class="fa fa-plus" aria-hidden="true"></i>
-        </button>
-      </div>
-      <div class="col col-sm my-auto text-center">
-        <span>$549.00</span>
-      </div>
-    </div>
-    <!-- Product #3 -->
-    <div class="row border-bottom" style="background-color: #F8F8F8">
-      <div class="col-sm-1 my-auto d-md-flex justify-content-center align-items-center">
-        <button type="button" class="btn bg-transparent">
-          <i class="fa fa-trash" aria-hidden="true"></i>
-        </button>
-      </div>
-      <div class="col-sm-3">
-        <img class="img-fluid img-thumbnail" src="img/img1.jpg" alt="" />
-      </div>
-      <div class="col-sm-3">
-        <h5>Dish Name</h5>
-        <p>Bball High
-        White</p>
-      </div>
-      <div class="col col-sm-2 input-group my-auto">
-        <button class="btn btn-light border" type="button" name="minus">
-          <i class="fa fa-minus" aria-hidden="true"></i>
-        </button>
-        <input type="text" class="border" maxlength="2" name="name" value="1" style="width: 30px">
-        <button class="btn btn-light border" type="button" name="plus">
-          <i class="fa fa-plus" aria-hidden="true"></i>
-        </button>
-      </div>
-      <div class="col col-sm my-auto text-center">
-        <span>$549.00</span>
-      </div>
-    </div>
-    <!-- END product #3-->
-    <!-- Summary -->
-    <div class="row border-bottom justify-content-end">
-      <div class="col col-sm-2 ">
-        Sub-Total
-      </div>
-      <div class="col col-sm-2  cart-summary-text-align text-right">
-        255,90 €
-      </div>
-    </div>
-    <div class="row border-bottom justify-content-end" style="background-color: #F8F8F8">
-      <div class="col col-sm-2 ">
-        Delivery
-      </div>
-      <div class="col col-sm-2 cart-summary-text-align text-right">
-       20 €
-      </div>
-    </div>
-    <div class="row border-top justify-content-end font-weight-bold">
-      <div class="col col-sm-2 ">
-        Total
-      </div>
-      <div class="col col-sm-2   cart-summary-text-align text-right">
-        255,90 €
-      </div>
-    </div>
-    <div class="row justify-content-end">
-      <div class="col col-sm-2 text-right">
-        <button type="button" class="btn btn-outline-primary">
-          <i class="fa fa-shopping-bag" aria-hidden="true"></i>
-          <span> Shop more</span>
-        </button>
-      </div>
-      <div class="col col-sm-2 text-right">
-        <a class="btn btn-success" href="checkout.html" role="button">
-          <i class="fa fa-credit-card" aria-hidden="true"></i>
-          <span> CHECKOUT</span>
-        </a>
-      </div>
+  <!-- Checkout form -->
+  <div class="container" id="checkout">
+    <div class="row mt-3">
+        <div class="col-sm">
+            <div class="">
+                <h4> Your Cart <span class="badge badge-warning">3</span></h4>
+                <ul class="list-group mb-3 z-depth-1">
+                    <li class="list-group-item d-flex justify-content-between lh-condensed">
+                      <div>
+                        <h6 class="my-0">Product name</h6>
+                        <small class="text-muted">Brief description</small>
+                      </div>
+                      <span class="text-muted">$12</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between lh-condensed">
+                      <div>
+                        <h6 class="my-0">Second product</h6>
+                        <small class="text-muted">Brief description</small>
+                      </div>
+                      <span class="text-muted">$8</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between lh-condensed">
+                      <div>
+                        <h6 class="my-0">Third item</h6>
+                        <small class="text-muted">Brief description</small>
+                      </div>
+                      <span class="text-muted">$5</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                      <span>Total (USD)</span>
+                      <strong>$20</strong>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+        <div class="col-sm-8 border">
+            <h4>Delivery Details</h4>
+            <form>
+                <div class="form-group row">
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="address" name="address"
+                            placeholder="address">
+                    </div> 
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="city" name="city"
+                                placeholder="city">
+                        </div>                     
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="state" name="state"
+                                placeholder="state">
+                        </div> 
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control" id="zip" name="zip"
+                                placeholder="Zip code">
+                        </div>                                     
+                    </div>
+                    <hr>
+                    <div class="form-group row">
+                        <div class="col-sm-6">
+                            <h6>Payment method</h6>
+                            <div class="custom-control custom-radio">
+                                <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
+                                <label class="custom-control-label" for="credit">Credit card</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
+                                <label class="custom-control-label" for="debit">Debit card</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
+                                <label class="custom-control-label" for="paypal">Paypal</label>
+                            </div>
+                        </div>                     
+                    </div>
+                    <div class="form-group row">
+                        <div class="form-group col-sm-6">
+                            <label for="cardname">Name on the card</label>
+                            <input type="text" class="form-control" id="cardname" placeholder="Name on the card">
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label for="cardno">Card No</label>
+                            <input type="text" class="form-control" id="cardno" placeholder="Card No">
+                        </div>                                    
+                    </div>
+                    <div class="form-group row">
+                        <div class="form-group col-sm-2">
+                            <label for="exp">Expiration</label>
+                            <input type="text" class="form-control" id="exp" placeholder="mm/yy">
+                        </div>
+                        <div class="form-group col-sm-2">
+                            <label for="cvv">CVV</label>
+                            <input type="text" class="form-control" id="cvv" placeholder="cvv">
+                        </div>                                    
+                    </div>
+                    <hr>
+                    <div class="col-sm-12 text-center">
+                        <button type="button" class="btn btn-success btn-block">Complete Order</button>
+                    </div>
+                </form>
+            </div>
     </div>
   </div>
-
-  </div>
-  <!-- END - cart -->
+  <!-- END - checkout form -->
 
   <!-- footer -->
     <footer class="footer">
