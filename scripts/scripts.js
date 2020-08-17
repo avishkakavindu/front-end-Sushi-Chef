@@ -1,11 +1,10 @@
-/* --- remove items --- */
-$('.remove-btn button').click(function(){   // onclick remove btn
-    removeItem(this);
-});
+var updateBtns = document.getElementsByClassName('update-cart');
 
-function removeItem(removeBtn){
-    var itemRow = $(removeBtn).parent().parent();
-    itemRow.slideUp(200, function(){
-        itemRow.remove();
-    });
+// update cart items (quantity, newitems) 
+for(i=0; i<updateBtns.length; i++){
+    updateBtns[i].addEventListener('click', function(){
+        var productId = this.dataset.product
+        var action = this.dataset.action
+        console.log('productId: ', productId, ' | Action: ', action)
+    })
 }
