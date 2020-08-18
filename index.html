@@ -17,9 +17,40 @@
 
     <link rel="icon" type="image/png" href="img/home.ico" />
     <title>Sushi Master</title>
+
   </head>
   <body>
-  
+    
+    <script>
+      function getCookie(name) {
+        // Get key=value pairs from spilitting cookie
+        var cookieArr = document.cookie.split(";");
+
+        // Loop through the array elements
+        for(var i=0; i<cookieArr.length; i++) {
+          var cookiePair = cookieArr[i].split("=");
+
+          // Remove whitespaces from beginning of the cookie name and compare  with given string
+          if(name == cookiePair[0].trim()) {
+            // Decode cookie value and return
+            return decodeURIComponent(cookiePair[1]);
+          }
+        }
+        // Return null if not found 
+        return null;
+      }
+
+      var cart = JSON.parse(getCookie('cart'))
+
+      // If no cookie found named 'cart'
+      if(cart == undefined) {
+        cart = {};
+        console.log('cart created!', cart);
+        document.cookie = 'cart=' + JSON.stringify(cart) + ";domain=;path=/";
+      }
+      console.log("Cart(final): ", cart);
+    </script>
+
     <header>
     <!-- top nav social-media -->
       <nav class="navbar navbar-dark navbar-expand">
