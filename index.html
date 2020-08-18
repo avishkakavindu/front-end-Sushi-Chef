@@ -40,15 +40,16 @@
         return null;
       }
 
-      var cart = JSON.parse(getCookie('cart'))
+      var myCart = JSON.parse(getCookie('myCart'))
 
-      // If no cookie found named 'cart'
-      if(cart == undefined) {
-        cart = {};
-        console.log('cart created!', cart);
-        document.cookie = 'cart=' + JSON.stringify(cart) + ";domain=;path=/";
+      // If no cookie found named 'myCart'
+      if(myCart == undefined) {
+        myCart = {}
+        console.log('cart created!', myCart);
+        // create actual cookie(main domain)
+        document.cookie = 'myCart=' + JSON.stringify(myCart) + ";domain=;path=/";
       }
-      console.log("Cart(final): ", cart);
+      console.log("Cart(final): ", myCart);
     </script>
 
     <header>
