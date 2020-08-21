@@ -432,3 +432,57 @@ button.btn.btn-secondary:hover {
 /*
  * -- Shopping product gallery --
  */
+
+ .bonus {
+     background-color: #1a1a1a;
+     color: #f17661;
+     padding: 5px;
+     position: absolute;
+     left: 0;
+    font-weight: bold;
+ }
+
+.product-desc h3>a{
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.product-desc p {
+    font-size: small;
+    color: #6c757d;
+}
+
+/* --rating system -- */
+.star-rating {
+    margin-top: 0px;
+}
+
+.star-rating i {
+    font-size: small;
+    color: #FFDF00;
+}
+
+.star-rating > .fa-star-o {
+    color: #6c757d;
+}
+
+/* -- cart icons */
+
+.cart-options a {  
+    color: #fff;
+    padding: 0px;
+ }
+
+ .cart-options span {
+    background: #f17661;
+    padding: 7px 10px 7px 10px;   
+ }
+
+ /* -- price -- */
+ .price-actual {
+     font-size: 20px;
+     color: #eb3819;
+     margin-left: 3px;
+     font-weight: 500;
+ }
