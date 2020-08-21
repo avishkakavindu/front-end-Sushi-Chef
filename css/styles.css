@@ -435,11 +435,11 @@ button.btn.btn-secondary:hover {
 
  .bonus {
      background-color: #1a1a1a;
-     color: #f17661;
+     color: #fa6247;
      padding: 5px;
      position: absolute;
      left: 0;
-    font-weight: bold;
+     font-weight: bolder;
  }
 
 .product-desc h3>a{
@@ -467,7 +467,19 @@ button.btn.btn-secondary:hover {
     color: #6c757d;
 }
 
+/* -- price -- */
+.price-actual {
+    font-size: 20px;
+    color: #eb3819;
+    margin-left: 3px;
+    font-weight: 500;
+}
+
 /* -- cart icons */
+.cart-options {
+    position: absolute;
+    bottom: -10px;
+}
 
 .cart-options a {  
     color: #fff;
@@ -479,10 +491,4 @@ button.btn.btn-secondary:hover {
     padding: 7px 10px 7px 10px;   
  }
 
- /* -- price -- */
- .price-actual {
-     font-size: 20px;
-     color: #eb3819;
-     margin-left: 3px;
-     font-weight: 500;
- }
+ 
