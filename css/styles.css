@@ -488,9 +488,16 @@ button.btn.btn-secondary:hover {
     padding: 0px;
  }
 
+ .cart-options span:hover {
+    color: #f17661;
+    background-color: #fff;
+    border: 1px solid #f17661;
+ }
+
  .cart-options span {
     background: #f17661;
     padding: 7px 10px 7px 10px;   
  }
+
 
  
