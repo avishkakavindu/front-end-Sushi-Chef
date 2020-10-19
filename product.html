@@ -199,61 +199,58 @@
     </section>
   <!-- END - Jumbatron -->
 
-  <!-- Shopping gallery -->
+  <!-- Product -->
   <div class="container mb-4">
     <div id="product" class="row">
-        <!-- for images -->
-        <div class="col-md col-lg-5">
-            <div class="row">
-                <div class="main-img">
-                    <img src="img/img1.jpg" class="img-fluid">
-                </div>
-                <div class="sub-img">
-                    <img src="img/img2.jpg" class="img-fluid">
-                </div>
-                <div class="sub-img">
-                    <img src="img/img3.jpg" class="img-fluid">
-                </div>
-            </div>
-        </div>
-        <!-- for description -->
-        <div class="col-md col-lg">
-            <h1>Product 1</h1>
-            <!-- Star rating -->
-            <span class="star-rating">
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star-o" aria-hidden="true"></i>
-            </span>
-            <small>3 reviews</small>
-            <p class="mb-0">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.ipsum dolor sit amet, consectetur adipiscing elit.
-            ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-            <div class="pricing">
-                <p>
-                    <span>Price:</span>
-                    <span class="price-actual">$ 96.00</span>
-                    <span><del>$ 120.00</del></span>
-                </p>
-                <p>
-                    <span>Servings: </span>
-                    <input class="quantity" min="0" name="quantity" value="1" type="number">
-                </p>
-                <button type="button" class="btn btn-outline-primary">
-                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                    <span> Add to cart</span>
-                </button>
-            </div>
-        </div>
-    </div>
-    <div class="row" id="reviews">
-        <!-- Review summary -->
-        <div class="col-md col-lg-6">
+      <!-- for images -->
+      <div class="col-md col-lg-5">
           <div class="row">
-            <div class="col-md col-lg-6  graphical-avg self-align-right">
+              <div class="main-img">
+                  <img src="img/img1.jpg" class="img-fluid">
+              </div>
+              <div class="sub-img">
+                  <img src="img/img2.jpg" class="img-fluid">
+              </div>
+              <div class="sub-img">
+                  <img src="img/img3.jpg" class="img-fluid">
+              </div>
+          </div>
+      </div>
+      <!-- for description -->
+      <div class="col-md col-lg">
+        <h1>Product 1</h1>
+        <!-- Star rating -->
+        <span class="star-rating">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star-o" aria-hidden="true"></i>
+        </span>
+        <small>3 reviews</small>
+        <p class="mb-0">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.ipsum dolor sit amet, consectetur adipiscing elit.
+        ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <div class="pricing">
+            <p>
+                <span>Price:</span>
+                <span class="price-actual">$ 96.00</span>
+                <span><del>$ 120.00</del></span>
+            </p>
+            <p>
+                <span>Servings: </span>
+                <input class="quantity" min="0" name="quantity" value="1" type="number">
+            </p>
+            <button type="button" class="btn btn-outline-primary">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <span> Add to cart</span>
+            </button>
+        </div>
+        <!-- Review summary -->
+        <div class="col-md col-lg mt-5">
+          <div class="row  graphical-avg">
+            <div class="col-md col-lg-5 self-align-right">
               <h5> Average user rating</h5>
               <h4>4.3<span>/5</span></h4>
               
@@ -266,48 +263,159 @@
                 <i class="fa fa-star-half-o" aria-hidden="true"></i>
               </span>
             </div>
-          </div>
-        </div>
-        <div class="col-md col-lg">
-            <!-- Review tabs -->
-            <nav>
-                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Reviews</a>
-                    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Your review</a>       
-                </div>
-            </nav>
-            <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                  <div class="row">
-                    <div class="col-md col-lg-3">
-                      <img src="img/chef1.jpg" class="img-thumbnail img-fluid">
-                      <p><small>Reviewer name</small></p>
+
+            <div class="col-md col-lg rating-breakdown">
+              <h5>Rating breakdown</h5>
+              <div class="progressbars">
+                <!-- 5 stars -->
+                <div class="flex-grow-1">
+                  <div class="row align-items-center">
+                    <div class="col-md col-lg-4  text-lg-right" style="font-size: 10px;">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
                     </div>
-                    <div class="col-md col-lg">
-                      <div class="">
-                        <!-- Star rating -->
-                        <span class="star-rating">
-                          <i class="fa fa-star" aria-hidden="true"></i>
-                          <i class="fa fa-star" aria-hidden="true"></i>
-                          <i class="fa fa-star" aria-hidden="true"></i>
-                          <i class="fa fa-star" aria-hidden="true"></i>
-                          <i class="fa fa-star-half-o" aria-hidden="true"></i>
-                        </span>
+                    <div class="col-sm col-lg-8">
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
-                      <p>
-                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. 
-                      </p>
                     </div>
                   </div>
                 </div>
-                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                    
+                <!-- 4 stars -->
+                <div class="flex-grow-1">
+                  <div class="row align-items-center">
+                    <div class="col-md col-lg-4  text-lg-right" style="font-size: 10px;">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-sm col-lg-8">
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+                <!-- 3 stars -->
+                <div class="flex-grow-1">
+                  <div class="row align-items-center">
+                    <div class="col-md col-lg-4  text-lg-right" style="font-size: 10px;">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-sm col-lg-8">
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- 2 stars -->
+                <div class="flex-grow-1">
+                  <div class="row align-items-center">
+                    <div class="col-md col-lg-4  text-lg-right" style="font-size: 10px;">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-sm col-lg-8">
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- 1 stars -->
+                <div class="flex-grow-1">
+                  <div class="row align-items-center">
+                    <div class="col-md col-lg-4  text-lg-right" style="font-size: 10px;">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-sm col-lg-8">
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+        <!-- END-Review summary -->
+        <div class="row mt-5" id="reviews">
+          <div class="col-md col-lg">
+            <!-- Review tabs -->
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Reviews</a>
+                  <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Your review</a>       
+              </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <!-- Review -->
+                <div class="row mt-3 mb-3 border-bottom pb-3">
+                  <div class="col-md col-lg-3 text-center">
+                    <img src="img/chef1.jpg" class="img-thumbnail rounded-circle img-fluid">
+                    <small>Reviewer name</small>
+                  </div>
+                  <div class="col-md col-lg">
+                    <p class="review-desc">
+                      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. 
+                    </p>
+                      <!-- Star rating -->
+                      <span class="star-rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                      </span>
+                      <span class="review-date">June 7, 2020 </span>
+                  </div>
+                </div>
+                <!-- End of review -->
+                <!-- Reviews -->
+                <div id="review">
+                  <div class="mt-3 mb-3 border-bottom pb-3">
+                  <div class="col-md col-lg-3 text-center">
+                    <img src="img/chef2.jpg" class="img-thumbnail rounded-circle img-fluid">
+                    <small>Reviewer name</small>
+                  </div>
+                  <div class="col-md col-lg">
+                    <p class="review-desc">
+                      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. 
+                    </p>
+                      <!-- Star rating -->
+                      <span class="star-rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                      </span>
+                      <span class="review-date">June 7, 2020 </span>
+                  </div>
+                </div>
+                <!-- End of review -->
+              </div>
+                  
+              </div>
+              <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <!-- END-Shopping gallery -->
+  <!-- END-product -->
   
 
   <!-- footer -->
@@ -363,5 +471,8 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+    <!-- custom scripts -->
+    <script src="scripts/scripts.js"></script>
   </body>
 </html> 

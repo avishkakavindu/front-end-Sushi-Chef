@@ -547,7 +547,7 @@ button.btn.btn-secondary:hover {
      border: 1px solid #dee2e6;
      background-color: #fafafa;
      padding: 20px 0px 20px 15px;
-     margin: 10px;
+     margin: 10px ;
  }
 
  .graphical-avg h4>span {
@@ -557,4 +557,27 @@ button.btn.btn-secondary:hover {
  
  .graphical-avg .star-rating>i {
      font-size: x-large;
+ }
+
+ .rating-breakdown {
+    margin-right: 5px;
+ }
+
+ .review-date {
+     float: right;
+     font-size: x-small;
+     color: #a1a1a1;
+ }
+
+ .review-desc {
+     font-style: italic;
+ }
+
+ .progress {
+     margin: 0px;
+     height: 5px;
+ }
+
+ .progress-bar {
+     background-color: #FFDF00;
  }
