@@ -542,3 +542,19 @@ button.btn.btn-secondary:hover {
  #reviews {
      margin: 0px;
  }
+
+ .graphical-avg {
+     border: 1px solid #dee2e6;
+     background-color: #fafafa;
+     padding: 20px 0px 20px 15px;
+     margin: 10px;
+ }
+
+ .graphical-avg h4>span {
+     color: #a1a1a1;
+     font-size: smaller;
+ }
+ 
+ .graphical-avg .star-rating>i {
+     font-size: x-large;
+ }
