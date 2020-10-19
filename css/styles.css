@@ -521,8 +521,14 @@ button.btn.btn-secondary:hover {
     margin: 0;
  }
 
+ .p-desc {
+     margin-top: 10px;
+     margin-bottom: 20px;
+ }
+
  #product h1 {
      font-family: Open Sans;
+     margin-bottom: 0;
  }
 
  #product .row {
@@ -571,6 +577,7 @@ button.btn.btn-secondary:hover {
 
  .review-desc {
      font-style: italic;
+     margin-top: 20px;
  }
 
  .progress {
@@ -580,4 +587,29 @@ button.btn.btn-secondary:hover {
 
  .progress-bar {
      background-color: #FFDF00;
+ }
+
+ .pricing span {
+    font-weight: bold;
+ }
+
+ .pricing span > del {
+     font-weight: normal;
+     color: #989898; 
+ }
+
+ .quantity {
+     width: 50px;
+     margin: 3px 0px 3px 5px;
+ }
+
+ .pricing .btn-outline-success {
+    border-color: #f17661;
+    color: #f17661;
+ }
+
+ .pricing .btn-outline-success:hover {
+    border-color: #f17661;
+    background-color: #f17661;
+    color: #fff;
  }
