@@ -647,6 +647,10 @@ button.btn.btn-secondary:hover {
      width: 150px;
  }
 
+ .profile-summary {
+    height: 450px;
+ }
+
  .profile-summary h2 {
     font-family: sans-serif;
     margin: 10px 0 10px 0;
@@ -659,7 +663,7 @@ button.btn.btn-secondary:hover {
 }
 
 .related-links{
-    background-color:#fce3df;
+    background-color:#fcfcfc;
 }
 
 .related-links p {
@@ -702,3 +706,11 @@ button.btn.btn-secondary:hover {
     opacity: 1;
     right: 0;
   }
+
+.file-field {
+    float: right;
+}
+
+.file-field input {
+    display: none;
+}

@@ -6,6 +6,14 @@ $(".sub-img").click(function(){
     $('.main-img').find('img').attr('src', sub_url);
 })
 
+// file upload btn
+
+$(".upload-icon").click(function () {
+    $("input[type='file']").trigger('click');
+    
+  });
+  
+ 
 
 
 
