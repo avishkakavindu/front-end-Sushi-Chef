@@ -657,3 +657,23 @@ button.btn.btn-secondary:hover {
     color: #545b62;
     font-weight: 500;
 }
+
+.related-links{
+    background-color:#fce3df;
+}
+
+.related-links p {
+    margin: 0px 0px 1px 0px;
+}
+
+.related-links a{
+    background-color:#f7b3a7;
+    border-color: #f7b3a7;
+    margin: 0px;
+}
+
+.related-links a:hover{
+    background-color: #f17661;
+    border-color: #f7b3a7;
+    margin-bottom: 0px;
+}
