@@ -674,6 +674,7 @@ button.btn.btn-secondary:hover {
     background-color:#f7b3a7;
     border-color: #f7b3a7;
     margin: 0px;
+    width: 100%;
 }
 
 .related-links a:hover{
@@ -684,6 +685,7 @@ button.btn.btn-secondary:hover {
 
 .related-links a:hover span {
     padding-right: 25px;
+    font-weight: bold;
 }
 
 .related-links span {
@@ -691,6 +693,9 @@ button.btn.btn-secondary:hover {
     display: inline-block;
     position: relative;
     transition: 0.5s;
+    font-size: medium;
+    color: #1a1a1a;
+    font-weight: lighter;
   }
 
 .related-links a span:after {
@@ -705,10 +710,17 @@ button.btn.btn-secondary:hover {
 .related-links a:hover span:after {
     opacity: 1;
     right: 0;
-  }
+ }
 
 .file-field {
-    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.file-field:hover{
+    color: #383838;
+    text-shadow: #545b62 1px 1px 2px;
 }
 
 .file-field input {
